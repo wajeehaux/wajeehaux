@@ -29,16 +29,16 @@
         </div>
     </div>
 
-    <h2 class="position-name-text" style:margin-bottom="24px">Design</h2>
-    <div class="flex flex-col items-start justify-center">
+    <h2 class="position-name-text" style="margin-bottom: 24px">Design</h2>
+    <div class="image-container">
         {#each data.allImages as image, idx}
-            <h2 class="self-start text-sm text-gray-500">Frame {idx + 1}</h2>
+            <h2 class="image-label">Frame {idx + 1}</h2>
             <img
-                class="h-auto max-w-screen-md rounded-lg shadow-lg"
+                class="project-image"
                 src={image}
-                alt=""
+                alt={`Frame ${idx + 1}`}
             />
-            <hr class="h-4 w-full my-4" />
+            <hr class="divider" />
         {/each}
     </div>
 </section>
@@ -59,8 +59,8 @@
     h1 {
         text-align: left;
     }
+
     p {
-        /* font-size: 16px; */
         line-height: 28px;
         font-weight: 400;
     }
@@ -112,5 +112,92 @@
         line-height: 34px;
         font-weight: 400;
         text-transform: none;
+    }
+
+    /* Image Styling */
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        width: 100%;
+    }
+
+    .image-label {
+        align-self: flex-start;
+        font-size: 14px;
+        color: #6b7280;
+        margin-bottom: 8px;
+    }
+
+    .project-image {
+        width: 100%;
+        max-width: 900px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .divider {
+        width: 100%;
+        height: 4px;
+        margin: 24px 0;
+        background-color: #e5e7eb;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 1024px) {
+        .heading-jumbo {
+            font-size: 48px;
+            line-height: 60px;
+        }
+
+        .header-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .image-label {
+            font-size: 12px;
+        }
+
+        .project-image {
+            max-width: 100%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .heading-jumbo {
+            font-size: 36px;
+            line-height: 48px;
+        }
+
+        .header-grid {
+            gap: 30px;
+        }
+
+        .project-image {
+            max-width: 100%;
+            border-radius: 6px;
+        }
+
+        .divider {
+            height: 2px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .heading-jumbo {
+            font-size: 28px;
+            line-height: 40px;
+        }
+
+        section {
+            margin: 0 15px;
+        }
+
+        .project-image {
+            border-radius: 4px;
+        }
     }
 </style>

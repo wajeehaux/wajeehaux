@@ -9,12 +9,12 @@
 </svelte:head>
 
 <section>
-	<div class="flex items-end justify-between w-[20%]">
+	<div class="flex items-end justify-between min-w-[25%] md:w-[20%]">
 		<div class="flex flex-col">
 			<h3 class="heading-medium">Wajeeha Batool</h3>
 			<h4 class="heading-small text-gray-400">Product Designer</h4>
 		</div>
-		<img src={logo} class="w-12 h-12" alt="" />
+		<img src={logo} class="w-24 h-24" alt="" />
 	</div>
 	<h2 class="mb-2 text-4xl text-gray-900 heading-jumbo">
 		Hey there! I’m a creative graphic and web designer based in sunny San
