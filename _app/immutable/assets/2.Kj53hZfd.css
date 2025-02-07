@@ -39,7 +39,8 @@
     font-size: 20px;
     line-height: 34px;
     font-weight: 400;
-    text-decoration: none
+    text-decoration: none;
+    text-align: center;
 }
 
 .project-name-link.svelte-130ryep:hover {
