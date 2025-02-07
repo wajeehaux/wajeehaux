@@ -1,1 +1,146 @@
-.grid.svelte-130ryep{margin-bottom:80px;grid-column-gap:30px;grid-row-gap:30px;grid-template-areas:". . ." ". . .";grid-template-columns:1.5fr 1fr 1.5fr;grid-template-rows:auto auto}.project-img.svelte-130ryep{background-image:url(https://assets.website-files.com/5c6e6f4…/5cdbece…_portfolio%201%20-%20wide.svg);display:flex;height:460px;margin-bottom:40px;flex-direction:column;justify-content:center;align-items:stretch;background-color:#f4f4f4;background-image:url(https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png);background-size:cover;text-align:center;text-decoration:none}.project-img.svelte-130ryep:hover{opacity:.8}.work-description.svelte-130ryep{display:flex;width:100%;margin-bottom:60px;flex-direction:column;justify-content:center;align-items:center}.project-name-link.svelte-130ryep{margin-bottom:5px;font-size:20px;line-height:34px;font-weight:400;text-decoration:none}.project-name-link.svelte-130ryep:hover{opacity:.8}.paragraph-light.svelte-130ryep{opacity:.6}.project-1.svelte-130ryep{grid-column-start:1;grid-column-end:4;grid-row-start:1;grid-row-end:2}.project-3.svelte-130ryep{grid-column-start:3;grid-column-end:4;grid-row-start:1;grid-row-end:2}.project-2.svelte-130ryep{grid-column-start:1;grid-column-end:4;grid-row-start:2;grid-row-end:3}@media (max-width: 1180px){.grid.svelte-130ryep{display:flex;flex-direction:column;align-items:stretch}}@media (max-width: 700px){.project-img.svelte-130ryep{height:200px}}section.svelte-5gt88o{margin:60px 30px;max-width:1140px;width:100%;display:flex;flex-direction:column;justify-content:center}.heading-medium.svelte-5gt88o{font-size:20px;line-height:34px;font-weight:400}.heading-small.svelte-5gt88o{font-size:16px;line-height:28px}.heading-jumbo.svelte-5gt88o{margin-top:10px;margin-bottom:10px;font-size:64px;line-height:80px;text-transform:none}@media (max-width: 1180px){section.svelte-5gt88o{padding:0 1rem}}@media (max-width: 600px){h2.heading-jumbo.svelte-5gt88o{font-size:46px}}
+.grid.svelte-130ryep{
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.project-img.svelte-130ryep {
+    background-image: url(https://assets.website-files.com/5c6e6f4…/5cdbece…_portfolio%201%20-%20wide.svg);
+    display: flex;
+    height: 460px;
+    margin-bottom: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #f4f4f4;
+    background-image: url(https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png);
+    background-size: cover;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.project-img.svelte-130ryep:hover {
+    opacity: .8
+}
+
+.work-description.svelte-130ryep {
+    display: flex;
+    width: 100%;
+    margin-bottom: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.project-name-link.svelte-130ryep {
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+    text-decoration: none
+}
+
+.project-name-link.svelte-130ryep:hover {
+    opacity: .8
+}
+
+.paragraph-light.svelte-130ryep {
+    opacity: .6
+}
+
+.project-1.svelte-130ryep {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2
+}
+.project-1 .project-img.svelte-130ryep {
+    height: 600px;
+   
+}
+
+.project-2 .project-img.svelte-130ryep {
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+   
+}
+.project-1 .project-img.svelte-130ryep:not(:first-child) {
+    display: none;
+}
+
+.project-2.svelte-130ryep {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2
+}
+
+.project-2.svelte-130ryep {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3
+}
+
+@media (max-width: 1180px) {
+    .grid.svelte-130ryep {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch
+    }
+}
+
+@media (max-width: 700px) {
+    .project-img.svelte-130ryep {
+        height: 400px
+    }
+    .project-1 .project-img.svelte-130ryep {
+        height: 200px;
+    }
+    .project-2 .project-img.svelte-130ryep {
+        height: 500px;
+    }
+}
+
+section.svelte-5gt88o {
+    margin: 60px 30px;
+    max-width: 1140px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.heading-medium.svelte-5gt88o {
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400
+}
+
+.heading-small.svelte-5gt88o {
+    font-size: 16px;
+    line-height: 28px
+}
+
+.heading-jumbo.svelte-5gt88o {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 64px;
+    line-height: 80px;
+    text-transform: none
+}
+
+@media (max-width: 1180px) {
+    section.svelte-5gt88o {
+        padding: 0 1rem
+    }
+}
+
+@media (max-width: 600px) {
+    h2.heading-jumbo.svelte-5gt88o {
+        font-size: 46px
+    }
+}

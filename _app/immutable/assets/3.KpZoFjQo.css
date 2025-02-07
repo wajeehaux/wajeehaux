@@ -1,1 +1,76 @@
-.heading-jumbo.svelte-8q3flr{margin-top:10px;margin-bottom:10px;font-size:64px;line-height:80px;text-transform:none}section.svelte-8q3flr{margin:0 30px}h1.svelte-8q3flr{text-align:left}p.svelte-8q3flr{line-height:28px;font-weight:400}.container.svelte-8q3flr{width:100%;max-width:1140px;margin-right:auto;margin-left:auto}.header-grid.svelte-8q3flr{display:grid;margin-top:120px;margin-bottom:60px;grid-column-gap:50px;grid-row-gap:100px;grid-template-areas:". . . ." ". . . .";grid-template-columns:1fr 1fr 1fr 1fr;grid-template-rows:auto auto}.header.svelte-8q3flr{grid-column-start:1;grid-column-end:4;grid-row-start:1;grid-row-end:2}.description-1.svelte-8q3flr{grid-column-start:1;grid-column-end:3;grid-row-start:2;grid-row-end:3}.position-name-text.svelte-8q3flr{margin-bottom:10px;font-size:20px;line-height:34px;font-weight:400;text-transform:none}@media (max-width: 700px){section.svelte-8q3flr{width:100%;padding:0 1rem}.header-grid.svelte-8q3flr{display:flex;flex-direction:column}img.svelte-8q3flr{max-width:100%}}
+.heading-jumbo.svelte-8q3flr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 64px;
+    line-height: 80px;
+    text-transform: none
+}
+
+section.svelte-8q3flr {
+    margin: 0 30px
+}
+
+h1.svelte-8q3flr {
+    text-align: left
+}
+
+p.svelte-8q3flr {
+    line-height: 28px;
+    font-weight: 400
+}
+
+.container.svelte-8q3flr {
+    width: 100%;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.header-grid.svelte-8q3flr {
+    display: grid;
+    margin-top: 120px;
+    margin-bottom: 60px;
+    grid-column-gap: 50px;
+    grid-row-gap: 100px;
+    grid-template-areas: ". . . ." ". . . .";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto
+}
+
+.header.svelte-8q3flr {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2
+}
+
+.description-1.svelte-8q3flr {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3
+}
+
+.position-name-text.svelte-8q3flr {
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+    text-transform: none
+}
+
+@media (max-width: 700px) {
+    section.svelte-8q3flr {
+        width: 100%;
+        padding: 0 1rem
+    }
+
+    .header-grid.svelte-8q3flr {
+        display: flex;
+        flex-direction: column
+    }
+
+    img.svelte-8q3flr {
+        max-width: 100%
+    }
+}
