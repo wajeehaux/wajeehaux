@@ -62,9 +62,13 @@
 }
 
 .project-2 .project-img.svelte-130ryep {
-    height: 700px;
+    height: 1500px;
     background-position: center;
     background-size: cover;
+   
+}
+.project-2 .project-img.svelte-130ryep:not(:first-child) {
+   display: none;
    
 }
 .project-1 .project-img.svelte-130ryep:not(:first-child) {
@@ -101,7 +105,7 @@
         height: 200px;
     }
     .project-2 .project-img.svelte-130ryep {
-        height: 500px;
+        height: 600px;
     }
 }
 

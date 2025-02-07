@@ -17,7 +17,8 @@ function t(e) {
   // Fixed allImages array for information-architecture-workbook
   const allImagesP2 = Array.from({ length: 35 }, (_, idx) => {
     return "" + new URL(`../assets/${idx + 1}.png`, import.meta.url).href;
-  });
+});
+console.log("URL:",allImagesP2);
   
   const r = [
     {
